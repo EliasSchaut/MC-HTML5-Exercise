@@ -18,3 +18,14 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
+
+#video {
+    border-radius: 2px;
+}
+
+#clown_nose {
+    position: absolute;
+    left: 50vw;
+    width: 30px;
+    z-index: 1;
+}
