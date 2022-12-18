@@ -1,0 +1,20 @@
+body {
+    background-color: #f5f5f5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.content-intro {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.content {
+    margin: 30px auto 0;
+    width: min(400px, 80vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
