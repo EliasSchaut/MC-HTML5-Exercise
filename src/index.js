@@ -19,7 +19,7 @@ function take_snapshot() {
     context.drawImage(video, 0, 0);
 
     const clown = new Image();
-    clown.src = '../assets/clown_mask.png';
+    clown.src = './assets/clown_mask.png';
     clown.onload = function() {
         context.drawImage(clown, canvas.width / 2 - 80, canvas.height / 2 - 60, 160, 160);
         img.src = canvas.toDataURL();
