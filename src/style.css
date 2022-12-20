@@ -19,12 +19,13 @@ body {
 
 #video {
     border-radius: 2px;
+    transform: scaleX(-1)
 }
 
-#clown_nose {
+#clown_mask {
     position: absolute;
-    left: 50vw;
-    width: 30px;
+    align-self: center;
+    width: 100px;
     z-index: 1;
 }
 
