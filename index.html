@@ -11,11 +11,16 @@
 <h1 class="content-intro">Face-to-Clown Converter</h1>
 
 <div class="content">
-    <video id="video" autoplay></video>
-    <img id="clown_nose" src="assets/circle-fill.svg" alt="Nose of clown">
+    <div class="content">
+        <video id="video" autoplay></video>
+        <img id="clown_nose" src="assets/circle-fill.svg" alt="Nose of clown">
 
-    <button type="button">Take photo</button>
+        <button type="button" onclick="take_snapshot()">Take photo</button>
+    </div>
+
+    <img id="photo" alt="Photo of user">
 </div>
+
 
 
 <script rel="script" src="src/index.js"></script>
