@@ -2,6 +2,7 @@ navigator.mediaDevices.getUserMedia({ video: true })
     .then(function(mediaStream) {
         const video = document.getElementById('video');
         video.srcObject = mediaStream;
+        video.play()
     })
     .catch(function(error) {
         alert("Something went wrong while accessing the camera!");
@@ -23,6 +24,7 @@ function take_snapshot() {
     clown.onload = function() {
         context.drawImage(clown, canvas.width / 2 - 80, canvas.height / 2 - 60, 160, 160);
         img.src = canvas.toDataURL();
+        img.style.display = 'block';
     }
 }
 
